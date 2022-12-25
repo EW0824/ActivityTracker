@@ -11,6 +11,10 @@
 		0E69780F2953F5FE006D0BF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E69780E2953F5FE006D0BF6 /* ContentView.swift */; };
 		0E6978112953F5FF006D0BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6978102953F5FF006D0BF6 /* Assets.xcassets */; };
 		0E6978142953F5FF006D0BF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6978132953F5FF006D0BF6 /* Preview Assets.xcassets */; };
+		0E69781B2953F663006D0BF6 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E69781A2953F663006D0BF6 /* Activity.swift */; };
+		0E69781D2953F6D6006D0BF6 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E69781C2953F6D6006D0BF6 /* Activities.swift */; };
+		0E69781F2953FA60006D0BF6 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E69781E2953FA60006D0BF6 /* ActivityView.swift */; };
+		0E6978212953FF2E006D0BF6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6978202953FF2E006D0BF6 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0E69780E2953F5FE006D0BF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E6978102953F5FF006D0BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E6978132953F5FF006D0BF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E69781A2953F663006D0BF6 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		0E69781C2953F6D6006D0BF6 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		0E69781E2953FA60006D0BF6 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		0E6978202953FF2E006D0BF6 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				0E69780C2953F5FE006D0BF6 /* CHALLENGE_ActivityTrackerApp.swift */,
 				0E69780E2953F5FE006D0BF6 /* ContentView.swift */,
+				0E6978202953FF2E006D0BF6 /* AddView.swift */,
+				0E69781E2953FA60006D0BF6 /* ActivityView.swift */,
+				0E69781A2953F663006D0BF6 /* Activity.swift */,
+				0E69781C2953F6D6006D0BF6 /* Activities.swift */,
 				0E6978102953F5FF006D0BF6 /* Assets.xcassets */,
 				0E6978122953F5FF006D0BF6 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E69781D2953F6D6006D0BF6 /* Activities.swift in Sources */,
+				0E69781B2953F663006D0BF6 /* Activity.swift in Sources */,
+				0E6978212953FF2E006D0BF6 /* AddView.swift in Sources */,
 				0E69780F2953F5FE006D0BF6 /* ContentView.swift in Sources */,
+				0E69781F2953FA60006D0BF6 /* ActivityView.swift in Sources */,
 				0E69780D2953F5FE006D0BF6 /* CHALLENGE_ActivityTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
